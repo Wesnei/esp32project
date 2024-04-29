@@ -7,8 +7,7 @@
     "backend": "nodemon server.js",
     "frontend": "cd frontend && npm start",
     "device": "concurrently \"npm run backend\" \"npm run frontend\"",
-    "start": "node server.js",
-    "render-postbuild": "npm install --prefix frontend && npm run build --prefix frontend"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
